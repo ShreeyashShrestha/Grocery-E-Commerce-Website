@@ -9,7 +9,7 @@ import { MdOutlineArrowRightAlt } from "react-icons/md";
 
 export default function Home() {
   return (
-    <div className="sliderWrapper bg-[#F1F1F1] py-5">
+    <div className="sliderWrapper bg-[#F1F1F1] py-5 pb-0">
       <HomeSlider />
       <CategorySlider />
       <PopularProducts />

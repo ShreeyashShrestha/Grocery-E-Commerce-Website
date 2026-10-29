@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Grocery Application Next.js",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

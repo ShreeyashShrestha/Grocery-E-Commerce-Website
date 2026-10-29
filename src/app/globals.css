@@ -26,3 +26,9 @@
 .btn-border-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #02B290 !important;}
 
 .btn-border-g:hover{background: #02B290 !important; color: #fff !important;}
+
+.btn-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #fff !important; background: #02B290 !important; padding: 8px 15px !important;}
+
+.btn-g:hover{ color: #fff !important; background: #353535 !important;}
+
+hr{border-color: rgba(0, 0, 0, 0.1) !important;}
