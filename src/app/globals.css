@@ -14,3 +14,15 @@
 .swiper-button-next:hover,.swiper-button-prev:hover{background: var(--color-primary) !important;}
 
 .swiper-button-next:hover svg,.swiper-button-prev:hover svg{color: #fff !important;}
+
+.MuiTabs-list button{font-weight: 600 !important;}
+
+.MuiTabs-list .Mui-selected{@apply text-primary!}
+
+.MuiTabs-indicator {background-color: #02B290 !important;}
+
+.MuiTabScrollButton-root svg{font-size: 20px !important; width: 20px !important; height: 20px !important;}
+
+.btn-border-g{border: 1px solid #02B290 !important; font-weight: 600 !important; color: #02B290 !important;}
+
+.btn-border-g:hover{background: #02B290 !important; color: #fff !important;}
