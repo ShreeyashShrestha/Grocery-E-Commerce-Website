@@ -5,6 +5,10 @@
   --color-secondary: #353535;
 }
 
+::-webkit-scrollbar{width: 8px !important; height: 8px !important;}
+::-webkit-scrollbar-thumb{background: #ff5252;}
+::-webkit-scrollbar-track{background: #fff;}
+
 .container{width: 90%; margin: auto;}
 
 .swiper-button-next,.swiper-button-prev{display: flex; align-items: center; justify-content: center; width: 50px !important; height: 50px !important; background: #fff !important; border-radius: 100% !important;} 
@@ -32,3 +36,28 @@
 .btn-g:hover{ color: #fff !important; background: #353535 !important;}
 
 hr{border-color: rgba(0, 0, 0, 0.1) !important;}
+
+.scroll::-webkit-scrollbar-thumb{background: #ccc !important;}
+
+.MuiFormGroup-root .MuiTypography-root{font-size: 14px !important;}
+
+.MuiFormGroup-root .Mui-checked .MuiSvgIcon-root{fill: #02B290 !important;}
+.Mui-checked .MuiSvgIcon-root{fill: #02B290 !important;}
+
+.MuiFormGroup-root .MuiFormControlLabel-root .MuiCheckbox-root{padding: 5px !important; padding-left: 10px !important;}
+
+.MuiCheckbox-root{padding: 5px !important; padding-left: 10px !important;}
+
+.ratingFilter .MuiCheckbox-root{padding-left: 0px !important;}
+
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}
+
+.range-slider{height: 5px !important;}
+.range-slider .range-slider__thumb, .range-slider .range-slider__range{@apply !bg-primary}
+.range-slider .range-slider__thumb {width: 18px !important; height: 18px !important;}
+
+.MuiList-root li{font-size: 14px !important;}
+
+.MuiPaginationItem-circular.Mui-selected{background-color: #02B290 !important; color: #fff !important;}
