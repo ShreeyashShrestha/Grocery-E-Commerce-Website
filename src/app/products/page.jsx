@@ -32,12 +32,12 @@ const ProductPage = () => {
 
         <div className="rightContent w-[82%] pl-5">
           <div className="top-strip w-full bg-[#f1f1f1] p-2 rounded-md h-12 flex items-center justify-between px-4 sticky top-[140px] z-[49]">
-            <span className="text-[15px] text-gray-700 font-[600]">
+            <span className="text-[15px] text-gray-700 font-[500]">
               There are 25 Products.
             </span>
 
             <div className="flex items-center gap-3">
-              <span className="text-[15px] text-gray-700 font-[600]">
+              <span className="text-[15px] text-gray-700 font-[500]">
                 Sort By
               </span>
               <div className="relative">

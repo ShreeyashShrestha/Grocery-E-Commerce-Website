@@ -16,35 +16,35 @@ const Footer = () => {
         <div className="flex items-center justify-center gap-2 py-3 lg:py-8 pb-0 lg:pb-8 px-0 lg:px-5">
           <div className="col flex items-center justify-center flex-col group w-[15%]">
             <LiaShippingFastSolid className="text-[40px] transition-all duration-300 group-hover:text-primary group-hover:-translate-y-1" />
-            <h3 className="text-[16px] font-[600] mt-3">Free Shipping</h3>
+            <h3 className="text-[16px] font-[500] mt-3">Free Shipping</h3>
             <p className="text-[13px] font-[500] text-gray-600">
               For all Orders Over $100
             </p>
           </div>
           <div className="col flex items-center justify-center flex-col group w-[15%]">
             <PiKeyReturnLight className="text-[40px] transition-all duration-300 group-hover:text-primary group-hover:-translate-y-1" />
-            <h3 className="text-[16px] font-[600] mt-3">30 Days Returns</h3>
+            <h3 className="text-[16px] font-[500] mt-3">30 Days Returns</h3>
             <p className="text-[13px] font-[500] text-gray-600">
               For an Exchange Product
             </p>
           </div>
           <div className="col flex items-center justify-center flex-col group w-[15%]">
             <BsWallet2 className="text-[40px] transition-all duration-300 group-hover:text-primary group-hover:-translate-y-1" />
-            <h3 className="text-[16px] font-[600] mt-3">Secured Payment</h3>
+            <h3 className="text-[16px] font-[500] mt-3">Secured Payment</h3>
             <p className="text-[13px] font-[500] text-gray-600">
               Payment Cards Accepted
             </p>
           </div>
           <div className="col flex items-center justify-center flex-col group w-[15%]">
             <LiaGiftSolid className="text-[40px] transition-all duration-300 group-hover:text-primary group-hover:-translate-y-1" />
-            <h3 className="text-[16px] font-[600] mt-3">Special Gifts</h3>
+            <h3 className="text-[16px] font-[500] mt-3">Special Gifts</h3>
             <p className="text-[13px] font-[500] text-gray-600">
               Our First Product Order
             </p>
           </div>
           <div className="col flex items-center justify-center flex-col group w-[15%]">
             <BiSupport className="text-[40px] transition-all duration-300 group-hover:text-primary group-hover:-translate-y-1" />
-            <h3 className="text-[16px] font-[600] mt-3">Support 24/7</h3>
+            <h3 className="text-[16px] font-[500] mt-3">Support 24/7</h3>
             <p className="text-[13px] font-[500] text-gray-600">
               Contact us Anytime
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
 
         <div className="flex justify-between py-8">
           <div className="col1 w-[20%] flex flex-col gap-4 border-r-[1px] border-[rgba(0,0,0,0.1)]">
-            <h3 className="text-[20px] font-[600] text-gray-600">Contact Us</h3>
+            <h3 className="text-[20px] font-[500] text-gray-700">Contact Us</h3>
             <p className="text-[14px] font-normal">
               BroBazar - Mega Super Store
               <br />
@@ -63,7 +63,7 @@ const Footer = () => {
 
             <Link
               href={"mailto:someone@example.com"}
-              className="text-gray-700 font-[600] text-[15px] hover:text-primary"
+              className="text-gray-700 font-[500] text-[15px] hover:text-primary"
             >
               someone@example.com
             </Link>
@@ -74,7 +74,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-3">
               <IoChatboxOutline className="text-[40px] text-primary" />
-              <span className="text-[16px] font-[600] text-gray-700">
+              <span className="text-[16px] font-[500] text-gray-700">
                 Online Chat <br /> Get Expert Help
               </span>
             </div>
@@ -82,12 +82,12 @@ const Footer = () => {
 
           <div className="col2 w-[35%] flex justify-between gap-5 pl-10">
             <div className="box">
-              <h3 className="text-[20px] font-[600] text-gray-600">Products</h3>
+              <h3 className="text-[20px] font-[500] text-gray-700">Products</h3>
               <ul className="list mt-5">
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Price drop
                   </Link>
@@ -95,7 +95,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     New Products
                   </Link>
@@ -103,7 +103,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Best sales
                   </Link>
@@ -111,7 +111,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Contact us
                   </Link>
@@ -119,7 +119,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Sitemap
                   </Link>
@@ -127,7 +127,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Stores
                   </Link>
@@ -136,14 +136,14 @@ const Footer = () => {
             </div>
 
             <div className="box">
-              <h3 className="text-[20px] font-[600] text-gray-600">
+              <h3 className="text-[20px] font-[500] text-gray-700">
                 Our Company
               </h3>
               <ul className="list mt-5">
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Delivery
                   </Link>
@@ -151,7 +151,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Legal Notice
                   </Link>
@@ -159,7 +159,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Terms and conditions of use
                   </Link>
@@ -167,7 +167,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     About us
                   </Link>
@@ -175,7 +175,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Secure payment
                   </Link>
@@ -183,7 +183,7 @@ const Footer = () => {
                 <li className="list-none text-[14px] w-full mb-2">
                   <Link
                     href="/"
-                    className="link text-[15px] font-[600] text-gray-600 hover:text-primary"
+                    className="link text-[15px] font-[500] text-gray-600 hover:text-primary"
                   >
                     Login
                   </Link>
@@ -193,7 +193,7 @@ const Footer = () => {
           </div>
 
           <div className="col3 w-[45%] pl-20">
-            <h3 className="text-[20px] font-[600] text-gray-600">
+            <h3 className="text-[20px] font-[500] text-gray-700">
               Subscribe to newsletter
             </h3>
             <p className="text-[14px] mt-3">

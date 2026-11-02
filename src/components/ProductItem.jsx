@@ -6,7 +6,7 @@ import React from "react";
 const ProductItem = () => {
   return (
     <div className="productItem shadow-md w-full bg-white rounded-md">
-      <Link href={"/"} className="img overflow-hidden group flex p-3">
+      <Link href={"/product/1234"} className="img overflow-hidden group flex p-3">
         <img
           src={"/Product1.png"}
           alt="product image"
@@ -17,7 +17,7 @@ const ProductItem = () => {
       <div className="info p-3 flex flex-col gap-1">
         <span className="text-[14px] text-gray-700">Bingo</span>
         <Link
-          href={"/"}
+          href={"/product/1234"}
           className="text-[15px] text-gray-800 font-[500] hover:text-primary"
         >
           100 Percent Apple Juice – 64 fl oz Bottle
