@@ -74,3 +74,6 @@ input[type=number] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+
+#_R_55esnelb_-menu .MuiList-root{max-height: 250px !important; overflow-y: scroll !important;}
+#_R_55esnelb_-menu .MuiList-root::-webkit-scrollbar-thumb{background: #ccc !important;}
