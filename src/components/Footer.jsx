@@ -11,7 +11,7 @@ import { PiKeyReturnLight } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#fafafa] py-8 mt-5">
+    <footer className="bg-[#fafafa] py-8">
       <div className="container">
         <div className="flex items-center justify-center gap-2 py-3 lg:py-8 pb-0 lg:pb-8 px-0 lg:px-5">
           <div className="col flex items-center justify-center flex-col group w-[15%]">
